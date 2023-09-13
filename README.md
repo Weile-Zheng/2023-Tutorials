@@ -6,7 +6,7 @@
 
 Analyzing KNN classification accuracy with relation to sample class imbalance
 
-![Img](img3.png)
+![Img](img.png)
 
 ## Setup
 
