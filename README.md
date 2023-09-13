@@ -2,8 +2,8 @@
 
 ## ML Challenge
 
----
 
+---
 Analyzing KNN classification accuracy with relation to sample class imbalance
 
 ![Img](img.png)
