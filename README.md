@@ -1,5 +1,29 @@
 # MDST Tutorials - F23
 
+## ML Challenge
+----
+Analyzing KNN classification accuracy with relation to sample class imbalance 
+
+![Img](img.png)
+
+
+```class_0 = X[Y == 0]  
+class_1 = X[Y == 1]  
+
+type(class_0)
+plt.scatter(class_0[:, 0], class_0[:, 1], label='Class 0', alpha=0.5)
+plt.scatter(class_1[:, 0], class_1[:, 1], label='Class 1', alpha=0.5)
+
+plt.xlabel('Feature 1')
+plt.ylabel('Feature 2')
+plt.legend()
+plt.title('Scatter Plot of Two Moon-Shaped Classes')
+
+# X gives the coodinate of the data point while 1 gaves a boolean value of 0 and 1. 
+```
+
+
+
 ## Setup
 
 1. If you haven't already, fill out this [form](https://forms.gle/U9oGX52cSzTVtoNp7) and join our mailing list. This will keep you up-to-date on the club.
@@ -34,9 +58,9 @@ These checkpoints are _not_ meant to be selective. Their sole purpose is to give
 
 The definition of success for us is to have everyone who begins the tutorials finish them. Thus, we will offer support in two ways:
 
-- Sunday Tutorials: Live tutorials will be held from 12 to 3 on 9/3 and 9/10, in-person only, at fishbowl classrooms. These are the stand-alone rooms in fishbowl in Mason Hall. Tutorials will be a combination of short presentations and Q&A.
+-   Sunday Tutorials: Live tutorials will be held from 12 to 3 on 9/3 and 9/10, in-person only, at fishbowl classrooms. These are the stand-alone rooms in fishbowl in Mason Hall. Tutorials will be a combination of short presentations and Q&A.
 
-- Weekday Office Hours: We will be offering office hours from 7 to 9 PM on 9/5, 9/12, and 9/14. We will offer these in-person at the third floor of UGLI.
+-   Weekday Office Hours: We will be offering office hours from 7 to 9 PM on 9/5, 9/12, and 9/14. We will offer these in-person at the third floor of UGLI.
 
 Neither tutorials nor office hours are mandatory.
 
@@ -50,8 +74,8 @@ A submission form where you will also indicate your project preferences will be 
 
 In your submission, we are looking for:
 
-- [**REQUIRED**] checkpoint 0 and checkpoint 1. These are assessed by completion and effort, not accuracy.
-- [**OPTIONAL**] ML Challenge and Stats Challenge. These are assessed by merit. We usually put new members on beginning projects for their very first semester but you may want to work on advanced projects right away if you are experienced with data science. You will be able to demonstrate said experience in these two challenges. You can choose to complete one or both of them.
+-   [**REQUIRED**] checkpoint 0 and checkpoint 1. These are assessed by completion and effort, not accuracy.
+-   [**OPTIONAL**] ML Challenge and Stats Challenge. These are assessed by merit. We usually put new members on beginning projects for their very first semester but you may want to work on advanced projects right away if you are experienced with data science. You will be able to demonstrate said experience in these two challenges. You can choose to complete one or both of them.
 
 It is strongly recommended for you to complete at least one challenge if the project you are most interested in is labelled as an advanced project. This will give you the best chance to be placed on that team.
 
