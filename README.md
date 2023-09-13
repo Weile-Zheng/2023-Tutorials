@@ -8,21 +8,6 @@ Analyzing KNN classification accuracy with relation to sample class imbalance
 
 ![Img](img2.png)
 
-```class_0 = X[Y == 0]
-class_1 = X[Y == 1]
-
-type(class_0)
-plt.scatter(class_0[:, 0], class_0[:, 1], label='Class 0', alpha=0.5)
-plt.scatter(class_1[:, 0], class_1[:, 1], label='Class 1', alpha=0.5)
-
-plt.xlabel('Feature 1')
-plt.ylabel('Feature 2')
-plt.legend()
-plt.title('Scatter Plot of Two Moon-Shaped Classes')
-
-# X gives the coodinate of the data point while 1 gaves a boolean value of 0 and 1.
-```
-
 ## Setup
 
 1. If you haven't already, fill out this [form](https://forms.gle/U9oGX52cSzTVtoNp7) and join our mailing list. This will keep you up-to-date on the club.
