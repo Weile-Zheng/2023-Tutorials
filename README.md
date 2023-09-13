@@ -1,14 +1,15 @@
 # MDST Tutorials - F23
 
 ## ML Challenge
-----
-Analyzing KNN classification accuracy with relation to sample class imbalance 
 
-![Img](img.png)
+---
 
+Analyzing KNN classification accuracy with relation to sample class imbalance
 
-```class_0 = X[Y == 0]  
-class_1 = X[Y == 1]  
+![Img](img2.png)
+
+```class_0 = X[Y == 0]
+class_1 = X[Y == 1]
 
 type(class_0)
 plt.scatter(class_0[:, 0], class_0[:, 1], label='Class 0', alpha=0.5)
@@ -19,10 +20,8 @@ plt.ylabel('Feature 2')
 plt.legend()
 plt.title('Scatter Plot of Two Moon-Shaped Classes')
 
-# X gives the coodinate of the data point while 1 gaves a boolean value of 0 and 1. 
+# X gives the coodinate of the data point while 1 gaves a boolean value of 0 and 1.
 ```
-
-
 
 ## Setup
 
